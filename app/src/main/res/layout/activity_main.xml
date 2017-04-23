@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eunhan.csc201_ch1702_app.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Exercise17_02.dat" />
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save date file" />
+
+    <Button
+        android:id="@+id/readbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="read dat file" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+</LinearLayout>
